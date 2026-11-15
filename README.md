@@ -79,3 +79,17 @@ node --check static/app.js
 ```
 
 Tests cover adaptive directions, missing versus zero input, completion and recovery, QUS comparability, API persistence/export, validation, offline fallback and rejection of unsupported model output. API tests use temporary storage. Node is optional and only used for the JavaScript syntax check.
+
+## Data sources
+
+Clinical Nutritional Assessment (Flight Analog) For food data comparison: https://nlsp.nasa.gov/search/data/details/72616c68-3046-5d36-8f1d-a26d856107ff?dataType=EXPERIMENTS
+
+NASA-STD-3001 Technical Brief For food data nutrient and etc: https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-013-food-and-nutrition.pdf
+
+Microbiological and nutritional analysis of lettuce crops grown on the International Space Station-VEG03A For comparison with Nasa's solution attempts: https://catalog.data.gov/dataset/microbiological-and-nutritional-analysis-of-lettuce-crops-grown-on-the-international-space
+
+Physical Activity Profiles of LSAH Participants For better understanding of physical activities in space: https://nlsp.nasa.gov/search/data/details/17bdc6b9-d0d5-5028-9d6d-99fe7f517f8a?dataType=EXPERIMENTS
+
+Astronaut-Reported Levels of Physical Activity By Gender For comparison based on age/gender: https://nlsp.nasa.gov/search/data/details/IDP-LSDA_DATASET-0000000000001376?dataType=DATASETS&utm_source=chatgpt.com
+
+The TBone studies: Effects of microgravity on astronauts' bones (Canada Space Agency) For effects of space travel on bones: https://www.asc-csa.gc.ca/eng/sciences/tbone.asp
