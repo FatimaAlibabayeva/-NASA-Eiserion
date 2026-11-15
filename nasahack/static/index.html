@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Eiserion • Mission health lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css?v=3"><script src="/app.js?v=3" defer></script></head>
+<body>
+<aside>
+  <a class="brand" href="#">
+    <span class="brand-row"><svg class="brand-icon" width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 5.2 4.8 9.4 10 10-5.2.6-9.4 4.8-10 10-.6-5.2-4.8-9.4-10-10 5.2-.6 9.4-4.8 10-10z"/></svg><span class="brand-name">eiserion</span></span>
+    <span class="brand-sub">MISSION HEALTH LAB</span>
+  </a>
+  <nav id="nav"></nav>
+  <div class="sidebar-bottom"><span class="dot"></span> SIMULATED DATA</div>
+</aside>
+<main>
+  <header>
+    <div><h1 id="title">Dashboard</h1><p id="subtitle" class="subtitle">Astronaut health overview &amp; adaptive planning</p></div>
+    <span class="mode-pill" id="mode-pill"></span>
+  </header>
+  <section class="toolbar"><label>Scenario<select id="scenario"></select></label><label>Record date<input id="date" type="date"></label><button id="recalculate">↻ Recalculate</button><button id="save" class="primary">Save data</button><span id="status" role="status"></span></section>
+  <div id="error" role="alert"></div>
+  <div id="content"></div>
+  <footer>Personal health records and plans are simulated and experimental; not for medical decisions. NASA crop study measurements are separately labeled and sourced.</footer>
+</main>
+</body></html>
